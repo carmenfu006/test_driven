@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ContactsController < ApplicationController
   def index
     @contacts = Contact.all
@@ -20,10 +22,20 @@ class ContactsController < ApplicationController
     @contact = Contact.find(params[:id])
   end
 
+  def edit
+    @contact = Contact.find(params[:id])
+  end
+
+  def update
+    @contact = Contact.find(params[:id])
+    if @contact.update_attributes(params_contact)
+      redirect_to @contact
+    end
+  end
 
   private
+
   def params_contact
     params.require(:contact).permit(:full_name, :email, :phone_number, :address)
   end
-
 end

@@ -3,12 +3,16 @@
     "coverage": {
       "/Users/carmen/Documents/Coding/test_driven/config/environment.rb": [
         null,
+        null,
+        null,
         1,
         null,
         null,
         1
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/application.rb": [
+        null,
+        null,
         1,
         null,
         1,
@@ -43,12 +47,16 @@
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/boot.rb": [
+        null,
+        null,
         1,
         null,
         1,
         1
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/environments/test.rb": [
+        null,
+        null,
         1,
         null,
         null,
@@ -104,9 +112,13 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/initializers/assets.rb": [
+        null,
+        null,
         null,
         null,
         null,
@@ -123,6 +135,8 @@
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/initializers/backtrace_silencers.rb": [
+        null,
+        null,
         null,
         null,
         null,
@@ -156,6 +170,8 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/initializers/cookies_serializer.rb": [
@@ -163,9 +179,13 @@
         null,
         null,
         null,
+        null,
+        null,
         1
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
         null,
         null,
         null,
@@ -187,15 +207,21 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/initializers/mime_types.rb": [
         null,
         null,
         null,
+        null,
+        null,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/initializers/wrap_parameters.rb": [
+        null,
+        null,
         null,
         null,
         null,
@@ -214,10 +240,10 @@
       "/Users/carmen/Documents/Coding/test_driven/spec/factories/contacts.rb": [
         1,
         1,
-        4,
-        4,
-        4,
-        4,
+        12,
+        10,
+        10,
+        10,
         null,
         1,
         1,
@@ -229,6 +255,8 @@
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/config/routes.rb": [
+        null,
+        null,
         1,
         1,
         1,
@@ -236,36 +264,41 @@
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/app/helpers/application_helper.rb": [
+        null,
+        null,
         1,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/app/helpers/contacts_helper.rb": [
+        null,
+        null,
         1,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/spec/support/factory_bot.rb": [
-        1,
-        1,
         null,
-        1,
         null,
         1,
         1,
         null,
         1,
+        1,
+        1,
         null,
+        1,
         null,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/spec/support/database_cleaner.rb": [
-        1,
-        null,
-        1,
-        1,
         null,
         null,
         1,
-        5,
+        1,
+        1,
+        null,
+        null,
+        1,
+        12,
         null,
         null,
         1,
@@ -273,15 +306,17 @@
         null,
         null,
         1,
-        5,
+        12,
         null,
         null,
         1,
-        5,
+        12,
         null,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/app/controllers/contacts_controller.rb": [
+        null,
+        null,
         1,
         1,
         1,
@@ -289,6 +324,23 @@
         null,
         1,
         1,
+        null,
+        null,
+        1,
+        4,
+        4,
+        2,
+        null,
+        2,
+        null,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
         null,
         null,
         1,
@@ -296,37 +348,36 @@
         2,
         2,
         null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
         null,
         null,
         1,
-        1,
-        2,
         null,
+        1,
+        6,
         null,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/app/controllers/application_controller.rb": [
+        null,
+        null,
         1,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/app/models/contact.rb": [
+        null,
+        null,
         1,
         1,
         null
       ],
       "/Users/carmen/Documents/Coding/test_driven/app/models/application_record.rb": [
+        null,
+        null,
         1,
         1,
         null
       ]
     },
-    "timestamp": 1562555523
+    "timestamp": 1562580114
   }
 }

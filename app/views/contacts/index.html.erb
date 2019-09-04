@@ -2,7 +2,11 @@
   <%= u.full_name %>
   <%= u.phone_number %>
   <%= u.email %>
-  <%= link_to 'show', contact_path(u)%>
+  <%= link_to 'show', @contact %>
 <% end %>
 
 <%= link_to 'new contact', new_contact_path %>
+
+<div data-controller="hello">
+  <h1 data-target="hello.output"></h1>
+</div>

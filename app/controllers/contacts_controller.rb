@@ -13,6 +13,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params_contact)
     if @contact.save
       redirect_to contact_path(@contact)
+      flash[:notice] = "Contact was successfully created."
     else
       render :new
     end

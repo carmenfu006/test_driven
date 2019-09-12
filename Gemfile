@@ -37,7 +37,11 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'webpacker', '~> 4.0.7' 
+gem 'webpacker', '~> 4.0.7'
+
+gem 'wicked_pdf', '~> 1.1'
+gem 'wkhtmltopdf-binary'
+gem 'ajax-datatables-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

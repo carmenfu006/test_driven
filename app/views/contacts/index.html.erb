@@ -2,7 +2,7 @@
   <%= u.full_name %>
   <%= u.phone_number %>
   <%= u.email %>
-  <%= link_to 'show', @contact %>
+  <%= link_to 'show', contact_path(u) %>
 <% end %>
 
 <%= link_to 'new contact', new_contact_path %>

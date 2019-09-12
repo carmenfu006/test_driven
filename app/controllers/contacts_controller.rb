@@ -21,6 +21,20 @@ class ContactsController < ApplicationController
 
   def show
     @contact = Contact.find(params[:id])
+    # respond_to do |format|
+    #   format.html
+    #   format.pdf do
+    #     render template: 'contacts/show', pdf: 'show'
+    #   end
+    # end
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render pdf: 'show',
+        # template: 'contacts/show',
+        locals: {:contact => @contact} #just to change the tag to contact instead of @contact in show.pdf.erb
+      end
+    end
   end
 
   def edit

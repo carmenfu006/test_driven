@@ -1,2 +1,5 @@
 <%= @contact.full_name %>
 <%= link_to 'edit', edit_contact_path %>
+
+
+<%= link_to 'Create PDF document', contact_path(@contact, :format => :pdf) %>
